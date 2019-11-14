@@ -10,7 +10,12 @@ package Latihan2;
  * @author yusri
  */
 public class Tes {
-    public static void main(String []srgs){
-      
+
+    public static void main(String[] Rjr) {
+        Line RJR = new Line(5, 10, 10, 20);
+        System.out.println(RJR.getLength());
+        System.out.println(RJR.isGreater(RJR, RJR));
+        System.out.println(RJR.isLess(RJR, RJR));
+        System.out.println(RJR.isEqual(RJR, RJR));
     }
 }
